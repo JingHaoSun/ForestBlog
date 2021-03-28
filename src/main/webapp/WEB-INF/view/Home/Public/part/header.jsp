@@ -16,25 +16,24 @@
                         <a href="/login">登录</a> | <a href="/register">注册</a>
                     </c:when>
                     <c:otherwise>
-                        <a href="/admin">进入后台</a>
+                        <a href="/admin">您已登录,点击进入后台</a>
                     </c:otherwise>
                 </c:choose>
-<%--                <a href="https://liuyanzhao.com/shop.html" target="_blank" style="color:red;">毕设代做/有偿服务</a>--%>
             </div>
-<%--            <div class="menu-topmenu-container">--%>
-<%--                <ul id="menu-topmenu" class="top-menu">--%>
-<%--                    <c:forEach items="${menuList}" var="m">--%>
-<%--                        <li class="menu-item">--%>
-<%--                        <c:if test="${m.menuLevel==1}">--%>
-<%--                                <a href="${m.menuUrl}" >--%>
-<%--                                    <i class="${m.menuIcon}"></i>--%>
-<%--                                    <span class="font-text">${m.menuName}&nbsp;</span>&nbsp;--%>
-<%--                                </a>--%>
-<%--                            </c:if>--%>
-<%--                        </li>--%>
-<%--                    </c:forEach>--%>
-<%--                </ul>--%>
-<%--            </div>--%>
+            <div class="menu-topmenu-container">
+                <ul id="menu-topmenu" class="top-menu">
+                    <c:forEach items="${menuList}" var="m">
+                        <li class="menu-item">
+                        <c:if test="${m.menuLevel==1}">
+                                <a href="${m.menuUrl}" >
+                                    <i class="${m.menuIcon}"></i>
+                                    <span class="font-text">${m.menuName}&nbsp;</span>&nbsp;
+                                </a>
+                            </c:if>
+                        </li>
+                    </c:forEach>
+                </ul>
+            </div>
         </div>
     </nav><!-- #top-header -->
     <%--顶部菜单 end--%>

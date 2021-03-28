@@ -11,52 +11,18 @@
 
     <%--关于本站 start--%>
     <aside class="widget about">
-<%--        <h3 class="widget-title">--%>
-<%--            <i class="fa fa-bars"></i>关于本站--%>
-<%--        </h3>--%>
+        <h3 class="widget-title">
+            <i class="fa fa-bars"></i>关于本站
+        </h3>
         <div id="feed_widget">
             <div class="feed-about">
                 <div class="about-main">
-<%--                    <div class="about-img">--%>
-<%--                        <img src="${options.optionAboutsiteAvatar}"--%>
-<%--                        alt="QR Code">--%>
-<%--                    </div>--%>
                     <div class="about-name">${options.optionAboutsiteTitle}</div>
                     <div class="about-the">
                         ${options.optionAboutsiteContent}
                     </div>
                 </div>
                 <div class="clear"></div>
-<%--                <ul>--%>
-<%--                    <li class="weixin">--%>
-<%--                        <a title="微信" id="weixin_btn" rel="external nofollow">--%>
-<%--                            <i class="fa fa-weixin"> </i>--%>
-<%--                            <div id="weixin_code" class="hide" >--%>
-<%--                                <img src="${options.optionAboutsiteWechat}" alt="">--%>
-<%--                            </div>--%>
-<%--                        </a>--%>
-<%--                    </li>--%>
-<%--                    <li class="tqq">--%>
-<%--                        <a target="blank" rel="external nofollow"--%>
-<%--                           href="http://wpa.qq.com/msgrd?V=3&amp;uin=${options.optionAboutsiteQq}&amp;Site=QQ&amp;Menu=yes"--%>
-<%--                           title="QQ在线">--%>
-<%--                            <i class="fa fa-qq"></i>--%>
-<%--                        </a>--%>
-<%--                    </li>--%>
-<%--                    <li class="tsina">--%>
-<%--                        <a title=""--%>
-<%--                           href="http://weibo.com/${options.optionAboutsiteWeibo}"--%>
-<%--                           target="_blank" rel="external nofollow">--%>
-<%--                            <i class="fa fa-weibo"></i>--%>
-<%--                        </a>--%>
-<%--                    </li>--%>
-<%--                    <li class="feed">--%>
-<%--                        <a title="" href="https://github.com/${options.optionAboutsiteGithub}" target="_blank"--%>
-<%--                           rel="external nofollow">--%>
-<%--                            <i class="fa fa-github"></i>--%>
-<%--                        </a>--%>
-<%--                    </li>--%>
-<%--                </ul>--%>
                 <div class="about-inf">
                     <span class="about-pn">文章 ${siteBasicStatistics[0]} </span>
                     <span class="about-cn">留言 ${siteBasicStatistics[1]} </span>
@@ -66,6 +32,15 @@
         <div class="clear"></div>
     </aside>
     <%--关于本站 start--%>
+
+        <aside id="music" class="widget">
+            <h3 class="widget-title">
+                <i class="fa fa-bars"></i>音乐播放
+            </h3>
+            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0"
+                    width=305 height=90
+                    src="//music.163.com/outchain/player?type=2&id=1815389717&auto=1&height=66"></iframe>
+        </aside>
 
     <%--网站概况 start--%>
     <aside id="php_text-22" class="widget php_text">
@@ -82,9 +57,8 @@
                 <li><i class="fa fa-eye"></i> 浏览总量：${siteBasicStatistics[5]} 次</li>
                 <li><i class="fa fa-pencil-square-o"></i> 最后更新：
                     <span style="color:#2F889A">
-                                        <fmt:formatDate value="${lastUpdateArticle.articleUpdateTime}" pattern="yyyy年MM月dd日"/>
-
-                                   </span>
+                    <fmt:formatDate value="${lastUpdateArticle.articleUpdateTime}" pattern="yyyy年MM月dd日"/>
+                    </span>
                 </li>
             </ul>
         </div>
