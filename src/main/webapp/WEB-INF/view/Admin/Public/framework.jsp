@@ -22,22 +22,20 @@
 </head>
 <body>
 <div class="layui-layout layui-layout-admin">
-    <div class="layui-header">
-        <div class="layui-logo"><a href="/admin" style="color:#009688;">
+    <div class="layui-header layui-bg-blue">
+        <div class="layui-logo"><a href="/admin" style="color:#FFEEE8;">
         ${options.optionSiteTitle}后台
         </a>
         </div>
         <!-- 头部区域（可配合layui已有的水平导航） -->
         <ul class="layui-nav layui-layout-left">
-            <li class="layui-nav-item"><a href="/" target="_blank">前台</a></li>
+            <li class="layui-nav-item"><a href="/" target="_blank" style="color:#FFEEE8;">博客前台</a></li>
             <li class="layui-nav-item">
-                <a href="javascript:;">新建</a>
+                <a href="javascript:;" style="color:#FFEEE8;">新建</a>
                 <dl class="layui-nav-child">
                     <dd><a href="/admin/article/insert">文章</a></dd>
-                    <dd><a href="/admin/page/insert">页面</a></dd>
                     <dd><a href="/admin/category/insert">分类</a></dd>
                     <dd><a href="/admin/notice/insert">公告</a></dd>
-                    <dd><a href="/admin/link/insert">链接</a></dd>
                 </dl>
             </li>
         </ul>
@@ -48,16 +46,16 @@
                     ${sessionScope.user.userName}
                 </a>
                 <dl class="layui-nav-child">
-                    <dd><a href="/admin/profile">基本资料</a></dd>
+                    <dd><a href="/admin/profile">个人资料</a></dd>
                 </dl>
             </li>
             <li class="layui-nav-item">
-                <a href="/admin/logout">退了</a>
+                <a href="/admin/logout" style="color:#FFEEE8;">注销</a>
             </li>
         </ul>
     </div>
 
-    <div class="layui-side layui-bg-black">
+    <div class="layui-side layui-bg-cyan">
         <div class="layui-side-scroll">
             <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
 
@@ -66,17 +64,17 @@
                 <li class="layui-nav-item layui-nav-itemed">
                     <a class="" href="javascript:;">文章</a>
                     <dl class="layui-nav-child">
-                        <dd><a href="/admin/article">全部文章</a></dd>
-                        <dd><a href="/admin/article/insert">写文章</a></dd>
-                        <dd><a href="/admin/category">全部分类</a></dd>
-                        <dd><a href="/admin/tag">全部标签</a></dd>
+                        <dd><a href="/admin/article" style="color:#1E9FFF;">全部文章</a></dd>
+                        <dd><a href="/admin/article/insert" style="color:#1E9FFF;">写文章</a></dd>
+                        <dd><a href="/admin/category" style="color:#1E9FFF;">全部分类</a></dd>
+                        <dd><a href="/admin/tag" style="color:#1E9FFF;">全部标签</a></dd>
                     </dl>
                 </li>
                 <li class="layui-nav-item">
-                    <a href="javascript:;">页面</a>
+                    <a href="javascript:;" >页面</a>
                     <dl class="layui-nav-child">
-                        <dd><a href="/admin/page">全部页面</a></dd>
-                        <dd><a href="/admin/page/insert">添加页面</a></dd>
+                        <dd><a href="/admin/page" style="color:#1E9FFF;">全部页面</a></dd>
+                        <dd><a href="/admin/page/insert" style="color:#1E9FFF;">添加页面</a></dd>
                     </dl>
                 </li>
                 <li class="layui-nav-item">
@@ -84,34 +82,34 @@
                         链接
                     </a>
                     <dl class="layui-nav-child">
-                        <dd><a href="/admin/link">全部链接</a></dd>
-                        <dd><a href="/admin/link/insert">添加链接</a></dd>
+                        <dd><a href="/admin/link" style="color:#1E9FFF;">全部链接</a></dd>
+                        <dd><a href="/admin/link/insert" style="color:#1E9FFF;">添加链接</a></dd>
                     </dl>
                 </li>
                 <li class="layui-nav-item">
                     <a href="javascript:;">公告</a>
                     <dl class="layui-nav-child">
-                        <dd><a href="/admin/notice">全部公告</a></dd>
-                        <dd><a href="/admin/notice/insert">添加公告</a></dd>
+                        <dd><a href="/admin/notice" style="color:#1E9FFF;">全部公告</a></dd>
+                        <dd><a href="/admin/notice/insert" style="color:#1E9FFF;">添加公告</a></dd>
                     </dl>
                 </li>
                 <li class="layui-nav-item">
-                    <a href="/admin/comment">
+                    <a href="/admin/comment" >
                         评论
                     </a>
                 </li>
                 <li class="layui-nav-item">
-                    <a href="javascript:;">用户</a>
+                    <a href="javascript:;" >用户</a>
                     <dl class="layui-nav-child">
-                        <dd><a href="/admin/user">全部用户</a></dd>
-                        <dd><a href="/admin/user/insert">添加用户</a></dd>
+                        <dd><a href="/admin/user" style="color:#1E9FFF;">全部用户</a></dd>
+                        <dd><a href="/admin/user/insert" style="color:#1E9FFF;">添加用户</a></dd>
                     </dl>
                 </li>
                 <li class="layui-nav-item">
                     <a href="javascript:;">设置</a>
                     <dl class="layui-nav-child">
-                        <dd><a href="/admin/menu">菜单</a></dd>
-                        <dd><a href="/admin/options">主要选项</a></dd>
+                        <dd><a href="/admin/menu" style="color:#1E9FFF;">菜单</a></dd>
+                        <dd><a href="/admin/options" style="color:#1E9FFF;">主要选项</a></dd>
                     </dl>
                 </li>
             </ul>
@@ -120,18 +118,23 @@
             <c:if test="${sessionScope.user != null && sessionScope.user.userRole == 'user'}">
                 <ul class="layui-nav layui-nav-tree"  lay-filter="test">
                     <li class="layui-nav-item layui-nav-itemed">
-                        <a class="" href="javascript:;">文章</a>
+                        <a class="" href="javascript:;" >文章</a>
                         <dl class="layui-nav-child">
-                            <dd><a href="/admin/article">我的文章</a></dd>
-                            <dd><a href="/admin/article/insert">写文章</a></dd>
+                            <dd><a href="/admin/article" style="color:#1E9FFF;">我的文章</a></dd>
+                            <dd><a href="/admin/article/insert" style="color:#1E9FFF;">写文章</a></dd>
                         </dl>
                     </li>
                     <li class="layui-nav-item layui-nav-itemed">
-                        <a class="" href="javascript:;">评论</a>
+                        <a class="" href="javascript:;" >评论</a>
                         <dl class="layui-nav-child">
-                            <dd><a href="/admin/comment">我的评论</a></dd>
-                            <dd><a href="/admin/comment/receive">评论我的</a></dd>
+                            <dd><a href="/admin/comment" style="color:#1E9FFF;">我的评论</a></dd>
+                            <dd><a href="/admin/comment/receive" style="color:#1E9FFF;">评论我的</a></dd>
                         </dl>
+                    </li>
+                    <li class="layui-nav-item">
+                        <a href="/admin/picture" >
+                            相册
+                        </a>
                     </li>
                 </ul>
             </c:if>
@@ -147,10 +150,10 @@
         </div>
     </div>
 
-    <div class="layui-footer">
-        <!-- 底部固定区域 -->
-        © <a href="http://blog.liuyanzhao.com">言曌博客</a> 2017  欢迎加入开发者交流群 590480292，博主免费回答大家日常问题。同时博主代做毕设，解决开发问题，详情参看 <a href="https://liuyanzhao.com/shop.html" target="_blank">有偿服务</a>
-    </div>
+<%--    <div class="layui-footer">--%>
+<%--        <!-- 底部固定区域 -->--%>
+<%--        © <a href="http://blog.liuyanzhao.com">言曌博客</a> 2017  欢迎加入开发者交流群 590480292，博主免费回答大家日常问题。同时博主代做毕设，解决开发问题，详情参看 <a href="https://liuyanzhao.com/shop.html" target="_blank">有偿服务</a>--%>
+<%--    </div>--%>
 </div>
 
 <script src="/js/jquery.min.js"></script>
