@@ -16,10 +16,10 @@
 
         .postbox {
             min-width: 255px;
-            border: 1px solid #e5e5e5;
+            border: 1px solid #c1e1b9;
             /* -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04); */
             box-shadow: 0 1px 1px rgba(0,0,0,.04);
-            background: #fff;
+            background: #FFEEE8;
         }
 
 
@@ -116,7 +116,7 @@
         }
 
         #dashboard_quick_press .drafts li time {
-            color: #72777c;
+            color: #FFB800;
         }
         #description-wrap label, #title-wrap label {
             cursor: text;
@@ -151,7 +151,7 @@
             max-width: 100%;
         }
         .js #dashboard_quick_press .drafts {
-            border-top: 1px solid #eee;
+            border-top: 1px solid #8A2BE2;
         }
         #dashboard_quick_press .drafts {
             padding: 10px 0 0;
@@ -173,7 +173,7 @@
             padding: 0;
             font-size: 14px;
             font-weight: 400;
-            color: #23282d;
+            color: #7ab951;
         }
         #dashboard_quick_press .drafts ul {
             margin: 0 12px;
@@ -228,7 +228,7 @@
             <div id="dashboard_activity" class="postbox ">
                 <div class="inside">
                     <div id="activity-widget">
-                        <div id="published-posts" class="activity-block"><h3>最近发布</h3> <br>
+                        <div id="published-posts" class="activity-block"><h1>最近发布</h1> <br>
                             <ul>
                                 <c:forEach items="${articleList}" begin="0" end="4" step="1" var="a">
                                     <li><span><fmt:formatDate value="${a.articleCreateTime}"
@@ -241,7 +241,7 @@
                             </ul>
                         </div>
                         <br>
-                        <div id="latest-comments" class="activity-block"><h3>近期评论</h3>
+                        <div id="latest-comments" class="activity-block"><h1>近期评论</h1>
                             <ul id="the-comment-list" data-wp-lists="list:comment">
                                 <c:forEach items="${commentList}" begin="0" end="4" step="1" var="c">
                                     <li class="comment   thread-even comment-item approved">

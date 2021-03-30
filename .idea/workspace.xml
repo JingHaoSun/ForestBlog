@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ForestBlog:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4e5fa85b-5604-420c-aab7-0657fa416d5f" name="Default Changelist" comment="sjh3">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liuyanzhao/ssm/blog/controller/admin/BackPictureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/Admin/Picture/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/Admin/Picture/insert.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/Admin/Article/insert.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/Admin/Article/insert.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/Home/Page/articleDetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/Home/Page/articleDetail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/avatar/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/avatar/avatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/avatar/avatar1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/avatar/avatar1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/avatar/avatar2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/avatar/avatar2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/qqGroup.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/shang/alipay.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/shang/alipay.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/shang/qqpay.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/shang/qqpay.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/shang/weixinpay.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/shang/weixinpay.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/thumbnail/random/img_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/thumbnail/random/img_0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/thumbnail/random/img_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/thumbnail/random/img_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/thumbnail/random/img_13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/thumbnail/random/img_13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/thumbnail/random/img_14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/thumbnail/random/img_14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/thumbnail/random/img_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/thumbnail/random/img_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/thumbnail/random/img_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/thumbnail/random/img_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resource/assets/img/weixin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/WEB-INF/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/WEB-INF/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/WEB-INF/view/Admin/Article/insert.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/WEB-INF/view/Admin/Article/insert.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/WEB-INF/view/Admin/Public/framework.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/WEB-INF/view/Admin/Public/framework.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/WEB-INF/view/Admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/WEB-INF/view/Admin/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/WEB-INF/view/Admin/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/WEB-INF/view/Admin/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/WEB-INF/view/Admin/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/WEB-INF/view/Admin/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/WEB-INF/view/Home/Page/articleDetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/WEB-INF/view/Home/Page/articleDetail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/WEB-INF/view/Home/Public/part/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/WEB-INF/view/Home/Public/part/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/avatar/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/avatar/avatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/avatar/avatar1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/avatar/avatar1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/avatar/avatar2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/avatar/avatar2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/loginBg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/loginBg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/qqGroup.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/shang/alipay.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/shang/alipay.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/shang/qqpay.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/shang/qqpay.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/shang/weixinpay.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/shang/weixinpay.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/thumbnail/random/img_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/thumbnail/random/img_0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/thumbnail/random/img_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/thumbnail/random/img_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/thumbnail/random/img_13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/thumbnail/random/img_13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/thumbnail/random/img_14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/thumbnail/random/img_14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/thumbnail/random/img_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/thumbnail/random/img_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/thumbnail/random/img_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/thumbnail/random/img_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ForestBlog-1.0.0-SNAPSHOT/resource/assets/img/weixin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\project\JavaProject\ForestBlog-master\ForestBlog\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1qLDjHg4d9Gbmt3WfuK519QP2IK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/Admin/Picture" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.liuyanzhao.ssm.blog.controller.admin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\JavaProject\ForestBlog-master\ForestBlog\ForestBlog\src\main\webapp\WEB-INF\view\Admin\Picture" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.0.51" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.51" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ForestBlog:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ForestBlog" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54087" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ForestBlog:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.07583965" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e5fa85b-5604-420c-aab7-0657fa416d5f" name="Default Changelist" comment="" />
+      <created>1616850109777</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616850109777</updated>
+      <workItem from="1616850116800" duration="7062000" />
+      <workItem from="1616899600909" duration="20795000" />
+      <workItem from="1617016054757" duration="9562000" />
+      <workItem from="1617064618112" duration="3062000" />
+      <workItem from="1617117293317" duration="2689000" />
+      <workItem from="1617120540684" duration="389000" />
+    </task>
+    <task id="LOCAL-00001" summary="db">
+      <created>1616903010798</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616903010798</updated>
+    </task>
+    <task id="LOCAL-00002" summary="sjh2">
+      <created>1616917625622</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616917625622</updated>
+    </task>
+    <task id="LOCAL-00003" summary="sjh3">
+      <created>1616917790986</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616917790986</updated>
+    </task>
+    <task id="LOCAL-00004" summary="sjh3">
+      <created>1616918161555</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616918161556</updated>
+    </task>
+    <task id="LOCAL-00005" summary="sjh3">
+      <created>1617120635519</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617120635519</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="db" />
+    <MESSAGE value="sjh2" />
+    <MESSAGE value="sjh3" />
+    <option name="LAST_COMMIT_MESSAGE" value="sjh3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616910179860">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="413" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616910179860" />
+    <state x="551" y="177" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1616910172342">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="551" y="177" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1920.1040@0.0.1920.1040" timestamp="1616910172342" />
+    <state x="501" y="112" key="CommitChangelistDialog2" timestamp="1617120952973">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="501" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617120952973" />
+    <state x="183" y="91" key="DiffContextDialog" timestamp="1617120589261">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="183" y="91" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617120589261" />
+    <state x="739" y="260" key="FileChooserDialogImpl" timestamp="1616895970789">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1616895970789" />
+    <state width="1705" height="455" key="GridCell.Tab.0.bottom" timestamp="1617120386699">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1705" height="455" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617120386699" />
+    <state width="1705" height="455" key="GridCell.Tab.0.center" timestamp="1617120386699">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1705" height="455" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617120386699" />
+    <state width="1705" height="455" key="GridCell.Tab.0.left" timestamp="1617120386699">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1705" height="455" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617120386699" />
+    <state width="1705" height="455" key="GridCell.Tab.0.right" timestamp="1617120386699">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1705" height="455" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617120386699" />
+    <state width="1705" height="455" key="GridCell.Tab.1.bottom" timestamp="1617120386699">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1705" height="455" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617120386699" />
+    <state width="1705" height="455" key="GridCell.Tab.1.center" timestamp="1617120386699">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1705" height="455" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617120386699" />
+    <state width="1705" height="455" key="GridCell.Tab.1.left" timestamp="1617120386699">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1705" height="455" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617120386699" />
+    <state width="1705" height="455" key="GridCell.Tab.1.right" timestamp="1617120386699">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1705" height="455" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617120386699" />
+    <state width="1705" height="455" key="GridCell.Tab.2.bottom" timestamp="1617120386700">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1705" height="455" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617120386700" />
+    <state width="1705" height="455" key="GridCell.Tab.2.center" timestamp="1617120386700">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1705" height="455" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617120386700" />
+    <state width="1705" height="455" key="GridCell.Tab.2.left" timestamp="1617120386699">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1705" height="455" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617120386699" />
+    <state width="1705" height="455" key="GridCell.Tab.2.right" timestamp="1617120386700">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1705" height="455" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617120386700" />
+    <state x="460" y="161" key="SettingsEditor" timestamp="1616903146210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="460" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1616903146210" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1616917800609">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616917800609" />
+    <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1616916571100">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616916571100" />
+    <state x="654" y="310" key="git4idea.merge.GitPullDialog" timestamp="1617120770364">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="654" y="310" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617120770364" />
+  </component>
+</project>
